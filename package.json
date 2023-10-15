@@ -1,0 +1,17 @@
+{
+  "name": "hao-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:forFishbonein/hao-docs.git",
+  "author": "ROGHUAN14\\Aron <1558637209@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
